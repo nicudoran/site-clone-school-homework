@@ -1,0 +1,40 @@
+<div class="my-locations-wraper">
+<div class="my-home-four-courses">
+    <div class="my-locationsContainer ">
+    <div class="my-row">
+      <div class="my-col-lg-12">
+      <div class="my-section-title my-text-center">
+
+          <span class="my-pre-title">Orașe În Care Venim Să Educăm</span>
+        </div>
+
+          <h3 class="my-title">Mai jos găsești o listă a orașelor în care urmează să înceapă cursuri de programare în perioada următoare</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="my-carousel-slider" >
+
+
+      <owl-carousel-o [options]="customOptions">
+
+        <ng-container *ngFor="let location of locationsArray">
+          <ng-template carouselSlide [id]="location.city">
+            <div class="loc-card">
+              <div class="loc-image">
+                <a [href]="location.loc_link" target="_blank">
+
+                  <img [src]="location.image" [alt]="" [title]="location.city">
+                </a>
+              </div>
+              <div class="my-content">
+                <h4 class="my-title">{{location.city}}</h4>
+              </div>
+            </div>
+          </ng-template>
+        </ng-container>
+
+      </owl-carousel-o>
+  </div>
+
+</div>

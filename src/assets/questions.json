@@ -1,0 +1,104 @@
+{
+    "questions": [
+	{
+            "questionText": "1. Ce este un algoritm?",
+            "options": [{
+                    "text": "A. O problema de rezolvat cu ajutorul calculatorului",
+                    "correct": false
+                },
+                {
+                    "text": "B. Un set de pasi, repetati pentru a gasi rezultatul",
+					"correct": true
+                },
+                {
+                    "text": "C. O materie de liceu",
+					"correct": false
+                },
+                {
+                    "text": "D. N-am auzit niciodata de acest cuvant",
+					"correct": false
+                }
+            ]
+    },
+        	{
+            "questionText": "2. Ce putem afirma atunci cand clasa B mosteneste clasa A?",
+            "options": [{
+                    "text": "A. Clasa A ia toate campurile si metodele clasei B",
+                    "correct": false
+                },
+                {
+                    "text": "B. Clasa B ia toate metodele si campurile clasei A",
+					"correct": true
+                },
+                {
+                    "text": "C. Clasa B devine o copie a clasei A",
+					"correct": false
+                },
+                {
+                    "text": "D. N-am auzit niciodata de clase",
+					"correct": false
+                }
+            ]
+    },
+		{
+            "questionText": "3. Care sunt functiile principale ale unui server?",
+            "options": [{
+                    "text": "A. Gestioneaza request-urile si serveste resursele statice",
+                    "correct": true
+                },
+                {
+                    "text": "B. Ne ajuta sa ne jucam pe Internet",
+					"correct": false
+                },
+                {
+                    "text": "C. Este un computer care ruleaza 24/7",
+					"correct": false
+                },
+                {
+                    "text": "D. N-am auzit niciodata de server",
+					"correct": false
+                }
+            ]
+    },
+		{
+            "questionText": "4. Ce serviciu este potrivit pentru a gestiona cod intr-o echipa?",
+            "options": [{
+                    "text": "A. Maven",
+                    "correct": false
+                },
+                {
+                    "text": "B. Cucumber",
+					"correct": false
+                },
+                {
+                    "text": "C. GitHub",
+					"correct": true
+                },
+                {
+                    "text": "D. Foaia de hartie si pixul",
+					"correct": false
+                }
+            ]
+    },
+		{
+            "questionText": "5. Care este Package Manager-ul limbajului Python?",
+            "options": [{
+                    "text": "A. pip",
+                    "correct": true
+                },
+                {
+                    "text": "B. py",
+					"correct": false
+                },
+                {
+                    "text": "C. apt",
+					"correct": false
+                },
+                {
+                    "text": "D. dhl",
+					"correct": false
+                }
+            ]
+    }
+    ]
+}

@@ -1,0 +1,44 @@
+.my-main-container{
+  height: 80px;
+  position:sticky;
+  top: 0;
+  align-items: center;
+  max-width: 100%;
+  z-index: 100;
+  background-color: white;
+  box-shadow: 0 0 10px #888;
+}
+.my-navbar-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.logo-link{
+  display: flex;
+  align-items: center;
+  width:180px;
+  height: 90px;
+  line-height: 90px;
+
+}
+a img{
+  height:70px;
+}
+.my-btn-quiz{
+  background-color:#525FE1 ;
+  color: white;
+  height: 50px;
+  width: 300px;
+  font-size: 18px;
+  border: solid #525FE1 1px;
+  border-radius: 25px;
+  padding: 0 0px;
+}
+.my-btn-quiz:hover{
+  background-color:white;
+  color: #525FE1 ;
+  cursor: pointer;
+  transition: 0.2s;
+}
+

@@ -1,0 +1,182 @@
+.formular-main-container{
+  background-image: url("https://te-fac-programator.ro/static/media/home-four-courses.670578f27e767af7ee81.jpg");
+  padding: 130px 0;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 1114px;
+  max-width: 100%;
+}
+.my-container-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  display: block;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1.4;
+  color: #231f40;
+  word-break: break-word;
+  margin: 0 0 20px;
+  padding: 0 15px;
+}
+h5{
+  padding: 0 15px;
+  color: #231f40;
+  word-break: break-word;
+  margin: 0 0 20px;
+  display: block;
+  font-size: 24px;
+}
+.my-login-form-box{
+display: block;
+max-width: 100%;
+}
+.my-login-form{
+  margin: 0;
+  display: block;
+  padding: 15px;
+}
+.my-input-box{
+  margin:0 0 30px;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  max-width: 100%;
+
+}
+input,select{
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #525fe1;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  outline: none;
+  padding: 0 15px;
+  transition: 0.3s;
+  width: 100%;
+  margin: 0;
+  max-width: 100%;
+  vertical-align: baseline;
+  writing-mode: horizontal-tb;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  cursor: text;
+}
+.my-input-box textarea{
+  border: 1px solid #525fe1;
+  background-color: #fff;
+  height: 100px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6f6b80;
+  line-height: 28px;
+  outline: none;
+  padding: 0 15px;
+}
+textarea{
+  transition: .3s;
+  width: 100%;
+  overflow: auto;
+  vertical-align: top;
+  margin: 0;
+  resize: vertical;
+}
+select{
+  appearance: none;
+  height: 60px;
+  padding: 10px 30px 10px 20px;
+  width: 100%;
+  word-wrap: normal;
+  overflow: visible;
+  writing-mode: horizontal-tb;
+  text-rendering: auto;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  cursor: default;
+}
+
+.my-comment-form-consent{
+  margin-bottom: 30px;
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5em;
+}
+.my-form-check-input{
+  border-radius: 0.25em;
+  float: left;
+  margin-left: -1.5rem;
+  background-color: #fff;
+  border: 1px solid #525fe1;
+  height: 1rem;
+  margin-top: 0.25em;
+  vertical-align: top;
+  width: 1em;
+  position: relative;
+}
+input .my-form-check-input{
+  /* appearance: none; */
+  display: inline-block;
+  opacity: 1;
+  position: absolute;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #525fe1;
+  border-radius: 2px;
+  content: " ";
+  height: 20px;
+  width: 20px;
+  left: 10px;
+  top: 1px;
+  transition: all .3s;
+  cursor: pointer;
+  }
+
+.my-form-check-label{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 0;
+  padding-left: 20px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+.my-subscribe-button{
+  background-color: #525fe1;
+  border: 0;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  height: 60px;
+  padding: 0 30px;
+  transition: 0.4s;
+  margin-bottom: 30px;
+  width: 100%;
+  color: white;
+  margin: 0;
+  max-width: 100%;
+  vertical-align: baseline;
+  text-transform: none;
+  text-align: center;
+}
+.my-subscribe-button:hover{
+  cursor: pointer;
+  background-color: #231f40;
+}

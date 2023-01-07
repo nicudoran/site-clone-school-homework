@@ -1,0 +1,169 @@
+.my-footer-main{
+  display: block;
+  background-color: #231F40;
+  max-width: 100%;
+  bottom: 0;
+ }
+.my-footer-top{
+padding: 130px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.my-footer-widget{
+  width:270px;
+  color: white;
+}
+
+.my-footer-col{
+  height: 318px;
+  margin-top:30px;
+  padding:0 15px;
+}
+.social-media {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 64px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 10px;
+}
+.social-media-list {
+  height: fit-content;
+  width: fit-content;
+  display: inline-block;
+  background-color: #393653;
+  border-radius: 5px;
+}
+.social-media-list :hover{
+  background-color: #525FE1;
+  border-radius: 5px;
+}
+
+.social-link {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.social-link img{
+  width: 45px;
+  height: 45px;
+}
+.footer-widget-c{
+  width:270px;
+  margin-left: 65px;
+  color: white;
+}
+.explore {
+  display: grid;
+  margin: 0 0 30px;
+  gap: 15px;
+}
+.explore-list{
+  font-size: 16px;
+  list-style:none;
+  line-height: 26px;
+  cursor: pointer;
+}
+.explore-links:hover{
+  color:#525FDC;
+}
+.explore-links::before{
+  content: "\00BB";
+  width: 14px;
+  height:14px;
+  margin-right: 10px;
+}
+ .explore-links {
+  text-decoration: none;
+  color: white;
+  width: 205px;
+ }
+
+ .contact {
+  display: grid;
+  gap: 15px;
+}
+.contact-list{
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  list-style:none;
+  line-height: 30px;
+  cursor: pointer;
+}
+.contact-links:hover{
+  color:#525FDC;
+}
+
+ .contact-links {
+  text-decoration: none;
+  color: white;
+ }
+ .icon-contact{
+  display: inline-block;
+  width:25.5px;
+  height: 52px;
+  margin-right: 12px;
+ }
+fa-icon{
+  font-size: 25px;
+  color: white;
+}
+.contact-list fa-icon{
+  font-size: 16px;
+  margin-right: 14px;
+}
+p{
+  margin-top: 34px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  line-height: 24px;
+}
+
+
+.svg-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill:white;
+}
+
+.svg-icon circle {
+  stroke: white;
+  stroke-width: 1;
+}
+
+h5{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0 0 20px;
+  }
+  .copyright-area{
+    height:60px;
+    display: block;
+    text-align: center;
+    color:white;
+  }
+  .copyright-area p{
+    padding: 0 7.5px;
+    margin: 0 0 30px;
+  }
+  .copyright-area a{
+    color: white;
+    text-decoration: none;
+  }
+  .copyright-area a:hover{
+    color:#525FDC;
+  }

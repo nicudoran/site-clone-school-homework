@@ -1,0 +1,128 @@
+.my-locations-wraper{
+  height: 895px;
+  max-width: 100%;
+  padding: 130px 0;
+  background-image: url("https://te-fac-programator.ro/static/media/home-four-courses.670578f27e767af7ee81.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+.my-home-four-courses{
+  display: flex;
+  justify-content: center;
+}
+/* .my-locationsContainer{
+position: relative;
+z-index: 9;
+margin-left: auto;
+margin-right: auto;
+padding-right: 0.75rem;
+width: 100%;
+display: block;
+text-align: center;
+height: 625px;
+} */
+.my-row{
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(var(--bs-gutter-x)*-.5);
+  margin-right: calc(var(--bs-gutter-x)*-.5);
+  margin-top: calc(var(--bs-gutter-y)*-1);
+  color: #6f6b80;
+  font-weight: 500;
+  line-height: 1.63;
+  max-width: 1155px;
+}
+.my-col-lg-12{
+  flex: 0 0 auto;
+  width: 100%;
+}
+.my-text-center{
+  text-align: center;
+}
+.my-section-title .my-pre-title{
+color: #525fe1;
+display: inline-block;
+font-size: 16px;
+font-weight: 800;
+letter-spacing: 0.1em;
+line-height: 26px;
+margin-bottom: 5px;
+text-transform: uppercase;
+}
+.my-section-title .my-title{
+  font-size: 30px;
+  margin-bottom: 0;
+}
+h3{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.4;
+  color: #231f40;
+  word-break: break-word;
+  margin: 0 0 20px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.my-carousel-slider{
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  max-width: 1155px;
+  /* margin-top: 40px; */
+}
+.loc-card{
+  display: block;
+  margin-bottom: 20px;
+  margin: 0 15px;
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 10%);
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.loc-image{
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+a img{
+  height: 100%;
+  border-radius: 3px;
+  display: block;
+  transition:all 0.3s ease-in-out;
+}
+a{
+  height: 100%;
+
+}
+.my-content{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  line-height: 100px;
+  text-align: center;
+}
+h4{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.38;
+  color: #231f40;
+  word-break: break-word;
+  margin: 0 0 20px;
+  display: block;
+  text-align: center;
+  background-color: white;
+}
+.loc-card:hover .loc-image a img{
+  transform: scale(1.1);
+  transform-origin: center;
+}
+

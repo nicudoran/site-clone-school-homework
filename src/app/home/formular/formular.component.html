@@ -1,0 +1,43 @@
+
+<div class="formular-main-container">
+  <div class="my-container-form">
+    <div class="my-login-form-box">
+      <h3 class="my-mb-30">Înscrie-te azi !</h3>
+      <h5 class="my-mb-30">Rezervă-ți locul și fi printre cei care vor să facă o schimbare mâine!</h5>
+      <form class="my-login-form">
+        <div class="my-input-box">
+          <input name="fullName" type="text" placeholder="Nume și prenume" value="" (change)="getFullName($event)">
+        </div>
+        <div class="my-input-box">
+          <input type="text" placeholder="Adresă de email" value="" (change)="getEmail($event)">
+        </div>
+        <div class="my-input-box">
+          <input type="text" placeholder="Număr de telefon" value="" (change)="getPhoneNo($event)">
+        </div>
+        <div class="my-input-box">
+          <select (change)="getOption($event)">
+            <option value="0">Selectează un modul</option>
+            <option value="126">Modul 1 - REMOTE- din 16 ianuarie 2023 - Luni si Miercuri - 18:30 - 20:30 - 1200 RON</option>
+            <option value="127">Modul 1 - Institutul Bancar Roman - din 16 ianuarie 2023 - Luni si Miercuri - 18:30 - 20:30 - 1500 RON</option>
+            <option value="128">Modul 1 - Hotel Ramada Pitesti - din 21 ianuarie 2023 - Sambata - 10:00 - 14:30  - 1500 RON</option>
+            <option value="129">Modul 1 - REMOTE- din 21 ianuarie 2023 - Luni si Miercuri - 10:00 - 14:30 - 1200 RON</option>
+          </select>
+        </div>
+        <div class="my-input-box">
+          <textarea placeholder="Mai multe informații" (change)="getExtras($event)"></textarea>
+        </div>
+        <div class="my-input-box">
+          <input type="text" placeholder="Cod promoțional" value="" (change)="getPromoCode($event)">
+        </div>
+        <div class="my-comment-form-consent my-input-box">
+          <input class="my-form-check-input" id="my-checkbox-2" type="checkbox" (change)="getConsent($event)">
+          <label class="my-form-check-label" for="my-checkbox-2">
+            <b style="font-size: 25px;">* </b>Sunt de acord cu procesarea datelor mele personale de către SC Te Fac Programator SRL.</label>
+          </div>
+          <button class="my-subscribe-button" type="submit" (click)="onClickSubmit()">
+            <span>Mă înscriu</span>
+          </button>
+        </form>
+    </div>
+  </div>
+</div>
