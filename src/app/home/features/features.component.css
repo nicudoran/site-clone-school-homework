@@ -1,5 +1,5 @@
 .my-features-main-container{
-  height: 770px;
+  min-height: 770px;
   padding: 130px 0;
   border-bottom: 1px solid #eee;
   background-color: #fff;
@@ -87,33 +87,33 @@ h3{
   width: 365px;
   height: 300px;
   background-color: #F5F5F5;
+  transition: all 0.3s ease-in-out;
 }
 .my-service-card:hover{
-margin-bottom: 30px;
 background-color: white;
 transform: translateY(-20px);
-transition: 0.4s;
+transition: 0.3s;
 box-shadow: 0 12px 35px rgb(0 0 0 / 7%);
 }
 .my-service-card:hover .my-inner .my-icon a{
   background-color: #ffa41b;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 .my-service-card:hover .my-inner .icon-globe a{
   background-color: #7152E8;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 .my-service-card:hover .my-inner .my-icon a .bi-flag {
   fill: white;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 .my-service-card:hover .my-inner .my-icon a .bi-gear {
   fill: white;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 .my-service-card:hover .my-inner .icon-globe a .bi-globe2 {
   fill: white;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .my-inner{
@@ -145,7 +145,7 @@ box-shadow: 0 12px 35px rgb(0 0 0 / 7%);
   width: 70px;
 }
 a{
-  transition: 0.3s;
+  transition:all 0.3s ease-in-out;
   color: #231f40;
   text-decoration: none;
 }

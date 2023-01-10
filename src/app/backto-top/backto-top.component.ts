@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  selector: 'app-backto-top',
+  templateUrl: './backto-top.component.html',
+  styleUrls: ['./backto-top.component.css']
 })
-export class NavbarComponent implements OnInit{
+export class BacktoTopComponent implements OnInit{
 
   windowScrolled = false;
+
   ngOnInit() {
     window.addEventListener('scroll', () => {
       this.windowScrolled = window.pageYOffset !== 0;
@@ -15,7 +16,6 @@ export class NavbarComponent implements OnInit{
   }
 
   scrollToTop(): void {
-      window.scrollTo(0, 0);
-
+    window.scrollTo(0, 0);
   }
 }

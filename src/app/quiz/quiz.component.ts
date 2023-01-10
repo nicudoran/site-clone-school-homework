@@ -1,4 +1,4 @@
-import { Component, OnInit,ViewChild,ElementRef } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
 import { QuestionService } from '../service/question.service';
 
@@ -11,7 +11,7 @@ import { QuestionService } from '../service/question.service';
 
 export class QuizComponent implements OnInit{
 
-  @ViewChild('name') nameKey!: ElementRef;
+
 
   public name: string = "";
   public questionList:any=[];
@@ -28,9 +28,7 @@ export class QuizComponent implements OnInit{
   constructor(private questionService:QuestionService){}
 
   ngOnInit(): void {
-    // this.name = localStorage.getItem("name")!;
     this.getAllQuestions();
-    // this.startCounter();
   }
 
   getAllQuestions(){
@@ -58,12 +56,12 @@ export class QuizComponent implements OnInit{
       this.correctAnswer++;
       setTimeout(()=>{
         this.currentQuestion++;
-      },1000);
+      },500);
     }
     else{
       setTimeout(()=>{
         this.currentQuestion++;
-      },1000);
+      },500);
     }
   }
 

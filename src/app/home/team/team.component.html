@@ -1,0 +1,45 @@
+  <div class="team-area">
+    <div class="container-team">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-title text-center">
+          <span class="pre-title">Cine Sunt Trainerii Noștrii</span>
+        </div>
+        <h3 class="title">Cei pe care îi veți avea în fața voastră sunt profesioniști în domeniul dezvoltării de software.</h3>
+      </div>
+    </div>
+    <div class="row row-20">
+      <ng-container *ngFor="let trainer of trainersList">
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt-45 card" style="animation-duration: 1s;">
+        <div class="instructor-grid instructor">
+        <div class="inner">
+        <div class="thumbnail">
+          <a >
+            <img [src]="trainer.image" alt="Team Member" style="height: 219px;">
+          </a>
+        </div>
+        <div class="round-image">
+          <a >
+            <img src="../../assets/team_cover_animation.png" alt="Team" style="height: 259px;">
+          </a>
+        </div>
+        <div class="team-share-info">
+          <a class="linkedin" [href]="trainer.inAccount" target="_blank">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a class="facebook" [href]="trainer.fbAccount" target="_blank">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    <div class="instructor-info">
+      <h5 class="title">{{trainer.name}}</h5>
+      <span class="desc">{{trainer.job}}</span>
+    </div>
+  </div>
+</div>
+</ng-container>
+</div>
+</div>
+</div>
+

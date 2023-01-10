@@ -21,6 +21,7 @@
 .my-hero-center-align{
   height: auto;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -28,7 +29,7 @@
 }
 .my-column-left{
   display: block;
-  width: 45%;
+  width: 600px;
   height: 593px;
   padding: 0 15px;
   margin: 30 0 0;
@@ -36,7 +37,7 @@
 }
 .my-column-right{
   display: block;
-  width: 45%;
+  width: 600px;
   height: 593px;
   padding: 0 15px;
   margin: 30 0 0;
@@ -53,10 +54,9 @@
 .my-thumbnail{
   display: block;
   width: fit-content;
-  display: flex;
-  justify-content: center;
 }
 .my-thumbnail img{
+  height: 430px;
   width: 500px;
   max-height: 430px;
   border-radius: 100%;
@@ -97,6 +97,7 @@
 }
 .quiz-link:hover{
   background-color:#231F40;
+  border: solid #231F40 1px;
   cursor: pointer;
   transition: 0.2s;
 }

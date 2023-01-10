@@ -5,9 +5,10 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { ChangeBgDirective } from './change-bg.directive';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
@@ -19,6 +20,8 @@ import { FeaturesComponent } from './home/features/features.component';
 import { FormularComponent } from './home/formular/formular.component';
 import { LocationsComponent } from './home/locations/locations.component';
 import { QuizComponent } from './quiz/quiz.component';
+import { BacktoTopComponent } from './backto-top/backto-top.component';
+import { TeamComponent } from './home/team/team.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +36,8 @@ import { QuizComponent } from './quiz/quiz.component';
     LocationsComponent,
     QuizComponent,
     ChangeBgDirective,
+    BacktoTopComponent,
+    TeamComponent,
   ],
   imports: [
     BrowserModule,
@@ -43,6 +48,7 @@ import { QuizComponent } from './quiz/quiz.component';
     CarouselModule,
     RouterModule,
     HttpClientModule,
+    ReactiveFormsModule,
    ],
   providers: [],
   bootstrap: [AppComponent]
