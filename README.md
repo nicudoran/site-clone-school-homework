@@ -49,17 +49,12 @@ The original site link:(https://te-fac-programator.ro/)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 Also I have used for this project the next librarys and frameworks:
 
--<a href="https://angular.io">
-<img src="./assets/angular.svg" width="160">
-</a> -<a href="https://https://getbootstrap.com/">
-<img src="./assets/bootstrap.svg" width="160">
-</a> -<a href="https://angular.io">
-<img src="./assets/angular.svg" width="160">
-</a> -<a href="https://angular.io">
-<img src="./assets/angular.svg" width="160">
-</a> -<a href="https://angular.io">
-<img src="./assets/angular.svg" width="160">
-</a>
+- <a href="https://angular.io">
+  <img src="./src/assets/angular.svg" width="160">
+  </a>
+- <a href="https://https://getbootstrap.com/">
+  <img src="./src/assets/bootstrap.svg" width="160">
+  </a>
 
 - [![Bootstrap][bootstrap.com]][bootstrap-url]
 - [![FontAwesome][fontawesome.com]][fontawesome-url]
