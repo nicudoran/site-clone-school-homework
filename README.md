@@ -1,6 +1,47 @@
-# TfpSite
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting started">Getting started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a>
+    <ul>
+        <li><a href="#navbar&footbar">Prerequisites</a></li>
+        <li><a href="#landing-page">Installation</a></li>
+        <li><a href="#quiz">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+## TfpSite
+
+<!-- picture here -->
+
+This project is a homework for a course of FullStack web developer - the course is organized by a private programming academy and Anais Digital.
+
+This project is meant to recreate a part of the original site of the academy and additionaly we added a new feature.
+The original site link:(https://te-fac-programator.ro/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Development server
 

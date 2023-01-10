@@ -77,3 +77,9 @@ select{
   background-color:#231F40;
   border: solid #231F40 1px;
 }
+.form-check-input:hover{
+  cursor: pointer;
+}
+.form-check-label:hover{
+  cursor: pointer;
+}
