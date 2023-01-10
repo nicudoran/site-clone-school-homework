@@ -1,4 +1,7 @@
 <!-- TABLE OF CONTENTS -->
+
+<a name="readme-top"></a>
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -39,10 +42,20 @@ This project is a homework for a course of FullStack web developer - the course 
 This project is meant to recreate a part of the original site of the academy and additionaly we added a new feature.
 The original site link:(https://te-fac-programator.ro/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Built With
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+Also I have used for this project the next librarys and frameworks:
+
+- [![Angular][angular.io]](angular.io)
+- [![Bootstrap][bootstrap.com]][bootstrap-url]
+- [![FontAwesome][fontawesome.com]][fontawesome-url]
+- [![SvgIcons][svgicons.sparkk.fr]][svgicon-url]
+- [![ngx-owl-carousel-o][www.npmjs.com/package/ngx-owl-carousel-o]][owlcarrousel-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
