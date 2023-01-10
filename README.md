@@ -41,7 +41,7 @@ The original site link:(https://te-fac-programator.ro/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 ## Development server
 
