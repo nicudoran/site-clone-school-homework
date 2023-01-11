@@ -62,14 +62,14 @@ This project is a homework for a course of FullStack web developer - the course 
 This project is meant to recreate a part of the original site of the academy and additionaly we added a new feature.
 The original site link:(https://te-fac-programator.ro/)
 
-<mark>
+<mark style="background-color: #FFFF00">
 This project is not optimized for mobile devices.
 The minimum width for a correct view is 650px.
 </mark>
 <p>
 This is because for some components (that were made in the begining of the project) I did not define @media queries.
 </p>
-<p>Some components like <mark>Enrolment form and Quiz</mark> were stylized using Bootstrap framework - which I discover later in the project!</p>
+<p>Some components like <mark style="background-color: #FFFF00">Enrolment form and Quiz</mark> were stylized using Bootstrap framework - which I discover later in the project!</p>
 <p>Also I have tried to use the Bootstrap in other components, but did not work (problems with installation) and I had to rename the classes that I used, adding "my" as prefix!</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -89,7 +89,7 @@ Also I have used for this project the next librarys and frameworks:
   <img src="./src/assets/readme/owl-carousel.png" width="160"  height="36">
   </a>
 - <a href="https://fontawesome.com/v4/icons/">
-  <img src="./src/assets/readme/font-awesome" width="160"  height="36">
+  <img src="./src/assets/readme/fontawesome.png" width="160"  height="36">
   </a>
 - <a href="http://svgicons.sparkk.fr/">
   <img src="./src/assets/readme/icons.png" width="160"  height="36">
