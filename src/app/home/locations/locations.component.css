@@ -11,17 +11,7 @@
   display: flex;
   justify-content: center;
 }
-/* .my-locationsContainer{
-position: relative;
-z-index: 9;
-margin-left: auto;
-margin-right: auto;
-padding-right: 0.75rem;
-width: 100%;
-display: block;
-text-align: center;
-height: 625px;
-} */
+
 .my-row{
   padding-top: 50px;
   display: flex;
@@ -74,7 +64,6 @@ h3{
   margin-right: auto;
   height: 100%;
   max-width: 1155px;
-  /* margin-top: 40px; */
 }
 .loc-card{
   display: block;
