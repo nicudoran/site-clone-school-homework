@@ -55,21 +55,22 @@
 
 ### TfpSite
 
-![TfpSite Picture](./src/assets/readme/ReadMe1.png "Project screenshot").
+![TfpSite Picture](./src/assets/readme/ReadMe1.png "Project screenshot")
 
 This project is a homework for a course of FullStack web developer - the course is organized by a private programming academy and Anais Digital.
 
 This project is meant to recreate a part of the original site of the academy and additionaly we added a new feature.
 The original site link:(https://te-fac-programator.ro/)
 
-<mark style="background-color: #FFFF00">
-**This project is not optimized for mobile devices.
-The minimum width for a correct view is 650px.**
-</mark>
+`
+This project is not optimized for mobile devices.
+The minimum width for a correct view is 650px.
+`
+
 <p>
 This is because for some components (that were made in the begining of the project) I did not define @media queries.
 </p>
-<p>Some components like <mark style="background-color: #FFFF00">**Enrolment form and Quiz**</mark> were stylized using Bootstrap framework - which I discover later in the project!</p>
+Some components like <mark style="background-color: #FFFF00">Enrolment form and Quiz</mark> were stylized using Bootstrap framework - which I discover later in the project!
 <p>Also I have tried to use the Bootstrap in other components, but did not work (problems with installation) and I had to rename the classes that I used, adding "my" as prefix!</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -140,7 +141,7 @@ Follow the next steps in order to run the project on your device:
 
 ### Navbar
 
-![Navbar](./src/assets/readme/navbar.gif "navbar animation").
+![Navbar](./src/assets/readme/navbar.gif "navbar animation")
 
 <p>The navbar is fixed on the top of the page</p>
 <p>The logo brand on the left is also a link to home page, in this case landing page: "/"</p>
@@ -148,7 +149,7 @@ Follow the next steps in order to run the project on your device:
 
 ### Footer
 
-![Footer](./src/assets/readme/footer.png "Footer image").
+![Footer](./src/assets/readme/footer.png "Footer image")
 
 <p>The footer is fixed on the botton of the page</p>
 <p>The Footer is split in three columns, each column containing different informations and links:</p>
@@ -166,27 +167,27 @@ Follow the next steps in order to run the project on your device:
 
 ### Hero section
 
-![Hero-section](./src/assets/readme/hero-section.gif "Hero section animation").
+![Hero-section](./src/assets/readme/hero-section.gif "Hero section animation")
 
 ### Features section
 
-![Feature-section](./src/assets/readme/features.gif "Feature section animation").
+![Feature-section](./src/assets/readme/features.gif "Feature section animation")
 
 ### Form section
 
-![Form-section](./src/assets/readme/enrolment.png "Enrolment section").
+![Form-section](./src/assets/readme/enrolment.png "Enrolment section")
 
 ### Locations section
 
-![Locations-section](./src/assets/readme/locations.gif "Locations section").
+![Locations-section](./src/assets/readme/locations.gif "Locations section")
 
 ### Team section
 
-![Team-section](./src/assets/readme/team.gif "Team section").
+![Team-section](./src/assets/readme/team.gif "Team section")
 
 ### Back to top button
 
-![Back-to top-button](./src/assets/readme/back.png "Back to top button image").
+![Back-to top-button](./src/assets/readme/back.png "Back to top button image")
 
 <p>Back to top button is always visible when the page is scrolled</p>
 
@@ -198,15 +199,15 @@ Follow the next steps in order to run the project on your device:
 
 ### Quiz welcome
 
-![Quiz-welcome](./src/assets/readme/quiz-welcome.gif "Quiz welcome").
+![Quiz-welcome](./src/assets/readme/quiz-welcome.gif "Quiz welcome")
 
 ### Quiz main
 
-![Quiz-main](./src/assets/readme/quiz-main.gif "Quiz-main").
+![Quiz-main](./src/assets/readme/quiz-main.gif "Quiz-main")
 
 ### Quiz results
 
-![Quiz-result](./src/assets/readme/quiz-result.gif "Quiz results").
+![Quiz-result](./src/assets/readme/quiz-result.gif "Quiz results")
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -214,6 +215,6 @@ Follow the next steps in order to run the project on your device:
 
 ## Contact
 
-LinkedIn: [https://www.linkedin.com/in/doran-nicolae-daniel-2412431a](https://www.linkedin.com/in/doran-nicolae-daniel-2412431a)
+ <a href="https://www.linkedin.com/in/doran-nicolae-daniel-2412431a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
