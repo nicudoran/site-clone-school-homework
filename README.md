@@ -177,7 +177,7 @@ Follow the next steps in order to run the project on your device:
 
 ### Form section
 
-![Form-section](./src/assets/readme-img/enrolment.png "Enrolment section")
+![Form-section](./src/assets/readme-img/form.gif "Enrolment section")
 
 ### Locations section
 
