@@ -62,10 +62,8 @@ This project is a homework for a course of FullStack web developer - the course 
 This project is meant to recreate a part of the original site of the academy and additionaly we added a new feature.
 The original site link:(https://te-fac-programator.ro/)
 
-`
-This project is not optimized for mobile devices.
-The minimum width for a correct view is 650px.
-`
+`This project is not optimized for mobile devices.
+The minimum width for a correct view is 650px.`
 
 <p>
 This is because for some components (that were made in the begining of the project) I did not define @media queries.
@@ -141,7 +139,7 @@ Follow the next steps in order to run the project on your device:
 
 ### Navbar
 
-![Navbar](./src/assets/readme/navbar.gif "navbar animation")
+![Navbar](./src/assets/readme/navbar.png "navbar image")
 
 <p>The navbar is fixed on the top of the page</p>
 <p>The logo brand on the left is also a link to home page, in this case landing page: "/"</p>
@@ -215,6 +213,6 @@ Follow the next steps in order to run the project on your device:
 
 ## Contact
 
- <a href="https://www.linkedin.com/in/doran-nicolae-daniel-2412431a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/doran-nicolae-daniel-2412431a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
