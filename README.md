@@ -119,15 +119,19 @@ Follow the next steps in order to run the project on your device:
    ```sh
    git clone https://github.com/nicudoran/tfp-site
    ```
-2. Install NPM packages
+2. Clone the repo
+   ```sh
+   cd tfp-site
+   ```
+3. Install NPM packages
    ```sh
    npm install
    ```
-3. Run `ng serve` for a dev server.
+4. Run `ng serve` for a dev server.
    ```sh
    ng serve
    ```
-4. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files..
+5. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files..
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,6 +182,8 @@ Follow the next steps in order to run the project on your device:
 ### Locations section
 
 ![Locations-section](./src/assets/readme/locations.gif "Locations section")
+
+- Build with [ngx-owl-carousel-o](https://www.npmjs.com/package/ngx-owl-carousel-o "ngx-owl-carousel-o")
 
 ### Team section
 
