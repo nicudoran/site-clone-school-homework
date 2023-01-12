@@ -62,10 +62,8 @@ This project is a homework for a course of FullStack web developer - the course 
 This project is meant to recreate a part of the original site of the academy and additionaly we added a new feature.
 The original site link:(https://te-fac-programator.ro/)
 
-`
-This project is not optimized for mobile devices.
-The minimum width for a correct view is 650px.
-`
+`This project is not optimized for mobile devices.
+The minimum width for a correct view is 650px.`
 
 <p>
 This is because for some components (that were made in the begining of the project) I did not define @media queries.
@@ -121,15 +119,19 @@ Follow the next steps in order to run the project on your device:
    ```sh
    git clone https://github.com/nicudoran/tfp-site
    ```
-2. Install NPM packages
+2. Clone the repo
+   ```sh
+   cd tfp-site
+   ```
+3. Install NPM packages
    ```sh
    npm install
    ```
-3. Run `ng serve` for a dev server.
+4. Run `ng serve` for a dev server.
    ```sh
    ng serve
    ```
-4. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files..
+5. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files..
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,6 +183,8 @@ Follow the next steps in order to run the project on your device:
 
 ![Locations-section](./src/assets/readme/locations.gif "Locations section")
 
+- Build with [ngx-owl-carousel-o](https://www.npmjs.com/package/ngx-owl-carousel-o "ngx-owl-carousel-o")
+
 ### Team section
 
 ![Team-section](./src/assets/readme/team.gif "Team section")
@@ -215,6 +219,6 @@ Follow the next steps in order to run the project on your device:
 
 ## Contact
 
- <a href="https://www.linkedin.com/in/doran-nicolae-daniel-2412431a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/doran-nicolae-daniel-2412431a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
