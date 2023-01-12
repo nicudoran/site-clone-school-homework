@@ -181,7 +181,7 @@ Follow the next steps in order to run the project on your device:
 
 ### Locations section
 
-![Locations-section](./src/assets/readme-img/locations.gif "Locations section")
+![Locations-section](./src/assets/readme-img/locations1.gif "Locations section")
 
 - Build with [ngx-owl-carousel-o](https://www.npmjs.com/package/ngx-owl-carousel-o "ngx-owl-carousel-o")
 
